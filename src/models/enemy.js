@@ -12,10 +12,10 @@ const EnemySchema = new mongoose.Schema({
   category: {
     type: String,
   },
-  creator: {
+  firstAppearance: {
     type: String,
   },
-  firstAppearance: {
+  photo: {
     type: String,
   },
 });
